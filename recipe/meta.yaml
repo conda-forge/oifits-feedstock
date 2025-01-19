@@ -1,13 +1,13 @@
 {% set name = "oifits" %}
-{% set version = "0.2.0" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 611d8ef9040aabf9db87e9419a25be18350f59341771587dde3d6d3cafc46f48
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 11c13096f234f3f0b6b2f382da840eac2360ed1231b166225e7dd9a303161810
 
 build:
   noarch: python
